@@ -59,10 +59,10 @@ async function executarAPI() {
 }
 
 function criaProjetoHTML(repo){
-  const imagem = `src/assets/img/${repo.name}.jpg`;
+  const imagem = `./src/assets/img/${repo.name}.jpg`;
   return `
     <div class="projeto">
-      <img src="${imagem}" class="foto" alt="Projeto ${repo.name}" onerror="this.onerror=null; this.src='src/assets/img/default.jpg'">
+      <img src="${imagem}" class="foto" alt="Projeto ${repo.name}" onerror="this.onerror=null; this.src='./src/assets/img/default.jpg'">
 
       <div class="projeto-info">
         <h2 class="titulo">${repo.name}</h2>
