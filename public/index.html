@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Marcos Vinícius</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../src/assets/css/style.css">
     <script src="https://kit.fontawesome.com/4eab4fc05e.js" crossorigin="anonymous"></script>
 </head>
 <body class="escuro">
@@ -22,7 +22,7 @@
     </header>
     <main>
         <section id="ficha">
-            <img src="imagens/marcos-perfil.jpg" alt="Marcos Vinícius" class="foto">
+            <img src="../src/assets/img/marcos-perfil.jpg" alt="Marcos Vinícius" class="foto">
             <h1>Marcos Vinícius</h1>
             <p>Tenho experiência com programação em C#, bancos de dados SQL, Front-End (HTML e CSS) e desenvolvimento de sistemas CRUD. Conhecimentos adquiridos no curso de Análise e Desenvolvimento de Sistemas que faço na PUC Minas.</p>
             <div id="social">
@@ -190,91 +190,14 @@
 
                 <div id="projetos-conteiner">
 
-                    <div class="projeto">
-                        <img src="imagens/projeto-01-videos.jpg" alt="" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">Julho - 2025</p>
-                            <h2 class="titulo">Projeto de Vídeos</h2>
-                            <p>Projeto construido para treinar a inserção de vídeos no site</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Criar um site onde você possa indicar quatro vídeos legais para seu visitante poder visitar. Ao clicar em qualquer uma das thumbs, abrirá uma página especial para cada um.</p>
-                                <p>
-                                    Abaixo do vídeo, temos dois links:
-                                    <ul>
-                                        <li>O primeiro é o “veja o curso completo”. Ao clicar nele, o visitante será desviado  automaticamente para a playlist oficial do YouTube.</li>
-                                    </ul> 
-                                    <li>
-                                        O segundo link é um botão de voltar. Na verdade, uma imagem que possui um link para a página anterior
-                                    </li>  
-                                </p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto">
-                        <img src="imagens/projeto-02-cordel.jpg" alt="" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">Julho - 2025</p>
-                            <h2 class="titulo">Projeto Cordel</h2>
-                            <p>Nesse desafio, transformei uma poesia em um site, incluindo efeitos de parallax nas imagens aplicadas ao fundo da página.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>A partir daí, inclui fontes específicas disponíveis no Google Fonts para poder ser usadas no projeto. Organizei o conteúdo para que duas estrofes (a segunda e a quinta) sejam apresentadas dentro de uma área com uma imagem fixa no fundo. Adicionei o efeito parallax nessa imagem, onde o conteúdo apresente uma rolagem e a imagem fique fixa no fundo.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto">
-                        <img src="imagens/projeto-03-android.jpg" alt="" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">Julho - 2025</p>
-                            <h2 class="titulo">Projeto Android</h2>
-                            <p>A proposta aqui era conseguir replicar o resultado apresentado no vídeo do Curso em Vídeo (plataforma que fiz o curso de HTML5 e CSS3), em uma página com um cabeçalho com tons degradê, com um menu simples e um artigo com títulos, imagens, vídeo e um conteúdo relacionado.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>O conteúdo também apresenta uma lista com marcadores personalizados e links externos identificados com um emoji.</p>
-                                <p>Por fim, fiz um rodapé com links</p>
-                                <p>E tive que tomar cuidados especiais para que esse conteúdo possa ser visualizado em celulares e dispositivos com a tela pequena.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto">
-                        <img src="imagens/projeto-04-links.jpg" alt="" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">Agosto - 2025</p>
-                            <h2 class="titulo">Projeto Redes Sociais</h2>
-                            <p>Esse projeto teve como objetivo criar uma página simulando a tela de um smartphone, com um visual semelhante ao iPhone. A estrutura foi feita utilizando HTML e CSS, com um iframe inserido dentro da moldura do celular para carregar o conteúdo de cada “aplicativo”.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>Na lateral, adicionei botões com ícones das principais redes sociais (Instagram, GitHub, LinkedIn, Spotify e YouTube). Ao clicar em cada ícone, o conteúdo exibido na tela do celular muda, criando uma interação mais dinâmica com o usuário.</p>
-                                <p>Trabalhei também com efeitos de hover, sombras e responsividade para que os botões se destaquem visualmente. O fundo de madeira traz um contraste interessante que ajuda a destacar o dispositivo no centro da página.</p>
-                            </details>
-                        </div>
-                    </div>
-
-                    <div class="projeto">
-                        <img src="imagens/projeto-05-login.jpg" alt="" class="foto">
-                        <div class="projeto-info">
-                            <p class="periodo">Setembro - 2025</p>
-                            <h2 class="titulo">Projeto Tela de Login Responsiva</h2>
-                            <p>Neste projeto, desenvolvi uma interface de login moderna e totalmente responsiva, utilizando apenas HTML5 e CSS3. A proposta foi criar um layout elegante, com barras arredondadas, ícones nos campos de entrada e uma imagem de destaque na parte superior, tornando a página visualmente mais interessante.</p>
-                            <details class="descricao">
-                                <summary>Saiba mais...</summary>
-                                <p>O formulário conta com validações básicas de e-mail e senha, além de opções como botão de acesso e link para recuperação de senha. A estrutura se adapta automaticamente a diferentes tamanhos de tela, graças às media queries, alterando o posicionamento dos elementos conforme o dispositivo utilizado (celular, tablet ou desktop).</p>
-                            </details>
-                        </div>
-                    </div>
-
                 </div>
             </article>
 
         </section>
     </main>
     <footer>
-        Portifólio desenvolvido por Marcos Vinícius seguindo os ensinamentos do <a href="https://www.youtube.com/watch?v=KG5-4FOukTo&list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d&index=43" rel="_blank" referrerpolicy="nofolow">Curso em Vídeo</a>
+        Portifólio desenvolvido por Marcos Vinícius seguindo os ensinamentos do <a href="https://www.youtube.com/watch?v=KG5-4FOukTo&list=PLHz_AreHm4dn1bAtIJWFrugl5z2Ej_52d&index=43" rel="_blank" referrerpolicy="nofollow">Curso em Vídeo</a>
     </footer>
-    <script src="scripts/script.js"></script>
+    <script src="assets/js/bundle.js"></script>
 </body>
 </html>
